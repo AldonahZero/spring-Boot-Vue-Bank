@@ -1,9 +1,9 @@
 /user post delete put get
 
-/user/register post
+/user/register post√
 1.完成注册功能的说明--register
 
-/user/login post
+/user/login post √
 2.完成登录功能的说明--login
 
 /user/deposit put

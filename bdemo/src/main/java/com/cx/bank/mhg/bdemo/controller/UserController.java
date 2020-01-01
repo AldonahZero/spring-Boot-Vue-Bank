@@ -32,5 +32,15 @@ public class UserController {
         return ResponseEntity.ok(tUser);
     }
 
+    @PostMapping("/register")
+    public ResponseEntity doRegister(@RequestBody TUser user) {
+        int a = userService.doRegister(user);
+        if(a != 1){
+            Map error = new HashMap();
+            error.put("用户 id:", user.getUserId());
+            throw new ResourceNotFoundException(error);
+        }
+        return ResponseEntity.ok(a);
+    }
 
 }

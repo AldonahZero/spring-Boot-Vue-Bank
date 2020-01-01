@@ -13,4 +13,7 @@ import org.springframework.stereotype.Repository;
 public interface TUserDAO extends MyBatisBaseDao<TUser, Integer> {
     //查询用户
     TUser selectByPrimaryKey(Integer id);
+
+    //注册用户
+    int insert(TUser user);
 }

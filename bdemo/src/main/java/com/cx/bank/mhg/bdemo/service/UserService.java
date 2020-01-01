@@ -35,4 +35,12 @@ public class UserService {
         // 登录失败
         return null;
     }
+
+    /**
+     * 用户注册
+     */
+    public int doRegister(TUser user) {
+        int a =userDao.insert(user);
+        return a;
+    }
 }

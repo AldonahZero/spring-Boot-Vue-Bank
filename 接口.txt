@@ -6,18 +6,24 @@
 /user/login post √
 2.完成登录功能的说明--login
 
-/user/deposit put
+/user/deposit put √
 3.完成存款功能的说明--deposit
 
-/user/withdrawals put
+/user/withdrawals put√
 4.完成取款功能的说明-- withdrawals
 
-/user/inquiry get
+/user/inquiry get√
 5.完成余额查询功能的说明-- inquiry
 
-/user/transfer post
+/user/transfer post√
 6.完成转账功能的说明--transfer
 
-/user/exitSystem put
+/user/exitSystem put√
 7. 完成退出系统功能的说明—exitSystem
+
+
+1.InvalidDepositException
+作用：存款为负数时抛出异常
+2. AccountOverDrawnException
+作用：取款超出余额时抛出异常
 

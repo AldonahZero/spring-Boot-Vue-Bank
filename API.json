@@ -1,0 +1,3715 @@
+{
+	"info": {
+		"_postman_id": "5adc9c6f-c061-4cd0-8881-94c94fad0fc1",
+		"name": "Today",
+		"description": "# Introduction\nWhat does your API do?\n\n# Overview\nThings that the developers should know about\n\n# Authentication\nWhat is the preferred way of using the API?\n\n# Error Codes\nWhat errors and status codes can a user expect?\n\n# Rate limit\nIs there a limit to the number of requests an user can send?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/transfer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/transfer",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"transfer"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/transfer",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"transfer"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/register",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/register",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/register",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/register",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/inquiry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/inquiry",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"inquiry"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/inquiry",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"inquiry"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/inquiry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/inquiry",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"inquiry"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/inquiry",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"inquiry"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/inquiry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/inquiry",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"inquiry"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/inquiry",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"inquiry"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/register",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/register",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/register",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/register",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/register",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/register",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/register",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/register",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/register",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/withdrawals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/withdrawals",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"withdrawals"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/withdrawals",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"withdrawals"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/withdrawals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/withdrawals",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"withdrawals"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/withdrawals",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"withdrawals"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/withdrawals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/withdrawals",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"withdrawals"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/withdrawals",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"withdrawals"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/withdrawals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/withdrawals",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"withdrawals"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/withdrawals",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"withdrawals"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/withdrawals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/withdrawals",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"withdrawals"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/withdrawals",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"withdrawals"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/withdrawals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/withdrawals",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"withdrawals"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/withdrawals",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"withdrawals"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "192.168.176.1:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "192.168.176.1:8333/user/deposit",
+					"host": [
+						"192",
+						"168",
+						"176",
+						"1"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "192.168.176.1:8333/user/deposit",
+							"host": [
+								"192",
+								"168",
+								"176",
+								"1"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "172.20.10.10:8333/user/deposit",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "172.20.10.10:8333/user/deposit",
+					"host": [
+						"172",
+						"20",
+						"10",
+						"10"
+					],
+					"port": "8333",
+					"path": [
+						"user",
+						"deposit"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "172.20.10.10:8333/user/deposit",
+							"host": [
+								"172",
+								"20",
+								"10",
+								"10"
+							],
+							"port": "8333",
+							"path": [
+								"user",
+								"deposit"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}

@@ -13,4 +13,7 @@ public interface TLogDAO extends MyBatisBaseDao<TLog, Integer> {
 
     //转账
     int insert(TLog tLog);
+
+    //转账
+    int insert2(TLog tLog);
 }

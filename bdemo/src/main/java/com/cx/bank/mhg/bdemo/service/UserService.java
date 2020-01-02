@@ -101,8 +101,6 @@ public class UserService {
         tLogTo.setLogType("收入");
         tLogFrom.setUserid(from);
         tLogTo.setUserid(to);
-        tLogFrom.setLogId(1);
-        tLogTo.setLogId(2);
         logDAO.insert(tLogFrom);
         logDAO.insert(tLogTo);
         return 1;

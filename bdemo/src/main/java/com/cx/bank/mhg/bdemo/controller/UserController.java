@@ -58,7 +58,7 @@ public class UserController {
         return ResponseEntity.ok(a);
     }
 
-    @GetMapping("/inquiry")
+    @PostMapping("/inquiry")
     public ResponseEntity inquiry(@RequestBody TUser user) {
         TUser tUser = userService.inquiry(user);
         if(tUser == null){

@@ -21,10 +21,13 @@
     where log_id = #{logId,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.cx.bank.mhg.bdemo.domain.TLog">
-    insert into t_log (log_id, log_type, log_amount, 
+    insert into t_log (log_id, log_type, log_amount,
       userid)
-    values (#{logId,jdbcType=INTEGER}, #{logType,jdbcType=VARCHAR}, #{logAmount,jdbcType=DOUBLE}, 
+    values (#{logId,jdbcType=INTEGER}, #{logType,jdbcType=VARCHAR}, #{logAmount,jdbcType=DOUBLE},
       #{userid,jdbcType=INTEGER})
+    <selectKey resultType="int" keyProperty="id" order="AFTER">
+      SELECT LAST_INSERT_ID()
+    </selectKey>
   </insert>
   <insert id="insertSelective" parameterType="com.cx.bank.mhg.bdemo.domain.TLog">
     insert into t_log

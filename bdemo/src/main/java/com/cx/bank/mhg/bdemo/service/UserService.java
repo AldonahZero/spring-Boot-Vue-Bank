@@ -1,11 +1,13 @@
 package com.cx.bank.mhg.bdemo.service;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.cx.bank.mhg.bdemo.Utils.RedisUtil;
 import com.cx.bank.mhg.bdemo.domain.TLog;
 import com.cx.bank.mhg.bdemo.domain.TUser;
 import com.cx.bank.mhg.bdemo.mapper.TLogDAO;
 import com.cx.bank.mhg.bdemo.mapper.TUserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -15,17 +17,24 @@ public class UserService {
     @Autowired
     private TLogDAO logDAO;
     @Autowired
-    RedisTemplate redisTemplate;
+    RedisUtil redisUtil;
 
     /**
      * 查余额
      */
     public TUser inquiry(TUser tUser) {
-//        TUser ansUser = null;
-//        if(tUser!=null){
-//            ansUser = (TUser)redisTemplate.get(tUser.getUserId()+"");
-//        }
-        return userDao.selectByPrimaryKey(tUser.getUserId());
+        TUser ansUser;
+        if(tUser!=null){
+            JSONObject jsonObject = JSON.parseObject((String) redisUtil.get(tUser.getUserId()+""));
+            ansUser = JSON.parseObject(String.valueOf(jsonObject), TUser.class);
+
+            if (ansUser != null){
+                return ansUser;
+            }
+        }
+        ansUser = userDao.selectByPrimaryKey(tUser.getUserId());
+        redisUtil.set(ansUser.getUserId()+"",JSONObject.toJSONString(ansUser));
+        return ansUser;
     }
 
     /**
@@ -63,6 +72,8 @@ public class UserService {
         }
         fastUser.setBalance(fastUser.getBalance()+addNumber);
         int a =userDao.updateByPrimaryKey(fastUser);
+        redisUtil.del(user.getUserId()+"");
+        redisUtil.set(fastUser.getUserId()+"",JSONObject.toJSONString(fastUser));
         return a;
     }
 
@@ -76,6 +87,8 @@ public class UserService {
         }
         fastUser.setBalance(fastUser.getBalance() - subNumber);
         int a =userDao.updateByPrimaryKey(fastUser);
+        redisUtil.del(user.getUserId()+"");
+        redisUtil.set(fastUser.getUserId()+"",JSONObject.toJSONString(fastUser));
         return a;
     }
 
@@ -97,6 +110,10 @@ public class UserService {
             doAddMoney(fastfrom,transferNumber);
             return -1;
         }
+        redisUtil.del(fastfrom.getUserId()+"");
+        redisUtil.set(fastfrom.getUserId()+"",JSONObject.toJSONString(fastfrom));
+        redisUtil.del(fastto.getUserId()+"");
+        redisUtil.set(fastto.getUserId()+"",JSONObject.toJSONString(fastto));
         TLog tLogFrom = new TLog();
         TLog tLogTo = new TLog();
         tLogFrom.setLogAmount(transferNumber);

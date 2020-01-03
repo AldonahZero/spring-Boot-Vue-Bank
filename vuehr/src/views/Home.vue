@@ -205,5 +205,12 @@ export default {
 .el-dropdown-link {
   display: flex;
   align-items: center;
+  color: white;
+  font-size: 25px;
+}
+
+i.el-icon-bell {
+    color: white;
+    font-size: 25px;
 }
 </style>

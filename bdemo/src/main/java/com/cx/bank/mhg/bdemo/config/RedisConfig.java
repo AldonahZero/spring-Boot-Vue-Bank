@@ -17,6 +17,18 @@ import redis.clients.jedis.JedisPoolConfig;
 @PropertySource("classpath:config/redis.properties")
 public class RedisConfig {
 
+    @Value("${redis.hostName}")
+    private String hostName;
+
+    @Value("${redis.port}")
+    private Integer port;
+
+    @Value("${redis.password}")
+    private String password;
+
+    @Value("${redis.timeout}")
+    private Integer timeout;
+
     @Value("${redis.maxIdle}")
     private Integer maxIdle;
 
@@ -42,11 +54,11 @@ public class RedisConfig {
     private boolean testWhileIdle;
 
 
-    @Value("${spring.redis.cluster.nodes}")
-    private String clusterNodes;
-
-    @Value("${spring.redis.cluster.max-redirects}")
-    private Integer mmaxRedirectsac;
+//    @Value("${spring.redis.cluster.nodes}")
+//    private String clusterNodes;
+//
+//    @Value("${spring.redis.cluster.max-redirects}")
+//    private Integer mmaxRedirectsac;
 
     public RedisConfig() {
     }
@@ -95,13 +107,13 @@ public class RedisConfig {
         //连接池
         JedisConnectionFactory.setPoolConfig(jedisPoolConfig);
         //IP地址
-        JedisConnectionFactory.setHostName("192.168.177.128");
+        JedisConnectionFactory.setHostName(hostName);
         //端口号
-        JedisConnectionFactory.setPort(6379);
+        JedisConnectionFactory.setPort(port);
         //如果Redis设置有密码
         //JedisConnectionFactory.setPassword(password);
         //客户端超时时间单位是毫秒
-        JedisConnectionFactory.setTimeout(5000);
+        JedisConnectionFactory.setTimeout(timeout);
         return JedisConnectionFactory;
     }
 

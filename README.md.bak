@@ -29,7 +29,7 @@
 | Swagger-UI           | 文档生产工具        | https://github.com/swagger-api/swagger-ui            |
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                       |
 | Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch             |
-| Kafka	               | 消息队列            | https://www.rabbitmq.com/                            |
+| RabbitMq             | 消息队列            | https://www.rabbitmq.com/                            |
 | Redis                | 分布式缓存          | https://redis.io/                                    |
 | MongoDb              | NoSql数据库         | https://www.mongodb.com                              |
 | Docker               | 应用容器引擎        | https://www.docker.com                               |

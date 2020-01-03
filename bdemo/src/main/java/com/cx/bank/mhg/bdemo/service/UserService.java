@@ -4,11 +4,9 @@ import com.cx.bank.mhg.bdemo.domain.TLog;
 import com.cx.bank.mhg.bdemo.domain.TUser;
 import com.cx.bank.mhg.bdemo.mapper.TLogDAO;
 import com.cx.bank.mhg.bdemo.mapper.TUserDAO;
-import com.sun.xml.internal.ws.util.Pool;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
-
-import java.util.List;
 
 @Service
 public class UserService {
@@ -16,11 +14,17 @@ public class UserService {
     private TUserDAO userDao;
     @Autowired
     private TLogDAO logDAO;
+    @Autowired
+    RedisTemplate redisTemplate;
 
     /**
      * 查余额
      */
     public TUser inquiry(TUser tUser) {
+//        TUser ansUser = null;
+//        if(tUser!=null){
+//            ansUser = (TUser)redisTemplate.get(tUser.getUserId()+"");
+//        }
         return userDao.selectByPrimaryKey(tUser.getUserId());
     }
 

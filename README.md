@@ -1,5 +1,5 @@
 # 项目架构
-![架构图](https://github.com/AldonahZero/spring-Boot-Vue-Bank/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg "架构图")
+![架构图](https://github.com/AldonahZero/spring-Boot-Vue-Bank/blob/master/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E5%9B%BE.png "架构图")
 
 
 扫码加微信，备注技术新潮流.

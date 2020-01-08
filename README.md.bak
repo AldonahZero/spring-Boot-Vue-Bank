@@ -12,12 +12,18 @@
 
 
 - 项目地址：[https://github.com/AldonahZero/spring-Boot-Vue-Bank](https://github.com/AldonahZero/spring-Boot-Vue-Bank) 
-
+![作者邮箱](aldnoah.usa@foxmail.com "作者邮箱")
 
 ### 项目技术栈
+#### 后端技术-Go
 
-
-#### 后端技术
+| 技术                 | 说明                | 官网                                                 |
+| -------------------- | ------------------- | ---------------------------------------------------- |
+| gin           | 框架        | https://github.com/gin-gonic/gin             |
+| MongoDB       | 认证和授权框架      | https://www.mongodb.com        |
+| Swagger       | 自动化文档生成工具      | https://swagger.io/      |
+| grom       | ORM框架      | github.com/jinzhu/gorm      |
+#### 后端技术-Java
 
 | 技术                 | 说明                | 官网                                                 |
 | -------------------- | ------------------- | ---------------------------------------------------- |
@@ -29,7 +35,7 @@
 | Swagger-UI           | 文档生产工具        | https://github.com/swagger-api/swagger-ui            |
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                       |
 | Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch             |
-| RabbitMq             | 消息队列            | https://www.rabbitmq.com/                            |
+| Kafka	               | 消息队列            | https://www.rabbitmq.com/                            |
 | Redis                | 分布式缓存          | https://redis.io/                                    |
 | MongoDb              | NoSql数据库         | https://www.mongodb.com                              |
 | Docker               | 应用容器引擎        | https://www.docker.com                               |

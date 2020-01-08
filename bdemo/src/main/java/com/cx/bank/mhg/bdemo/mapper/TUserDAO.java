@@ -19,4 +19,6 @@ public interface TUserDAO extends MyBatisBaseDao<TUser, Integer> {
 
     //更新用户
     int updateByPrimaryKey(TUser tUser);
+
+    TUser selectUserByName(String username);
 }

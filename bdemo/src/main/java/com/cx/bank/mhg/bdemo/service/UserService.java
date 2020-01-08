@@ -21,6 +21,7 @@ public class UserService {
 
     /**
      * 查余额
+     * pdf
      */
     public TUser inquiry(TUser tUser) {
         TUser ansUser;
@@ -125,5 +126,12 @@ public class UserService {
         logDAO.insert(tLogFrom);
         logDAO.insert(tLogTo);
         return 1;
+    }
+
+    /**
+     * 按用户名查找
+     */
+    public TUser selectUserByName(String username){
+        return userDao.selectUserByName(username);
     }
 }

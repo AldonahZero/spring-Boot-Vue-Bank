@@ -17,6 +17,12 @@
     from t_user
     where user_id = #{userId,jdbcType=INTEGER}
   </select>
+  <select id="selectUserByName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from t_user
+    where user_name = #{userName,jdbcType=VARCHAR}
+  </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from t_user
     where user_id = #{userId,jdbcType=INTEGER}

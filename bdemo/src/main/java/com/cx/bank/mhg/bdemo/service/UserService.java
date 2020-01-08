@@ -2,6 +2,7 @@ package com.cx.bank.mhg.bdemo.service;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.cx.bank.mhg.bdemo.Utils.MD5Utils;
 import com.cx.bank.mhg.bdemo.Utils.RedisUtil;
 import com.cx.bank.mhg.bdemo.domain.TLog;
 import com.cx.bank.mhg.bdemo.domain.TUser;
@@ -44,7 +45,7 @@ public class UserService {
     public TUser doLogin(TUser user) {
         TUser factUser =  userDao.selectByPrimaryKey(user.getUserId());
         if(factUser!=null){
-            if(factUser.getUserPassword().equals(user.getUserPassword())){
+            if(factUser.getUserPassword().equals(MD5Utils.md5(user.getUserPassword()))){
                 //登录成功， 会话缓存
                 return factUser;
             }
@@ -59,6 +60,7 @@ public class UserService {
     public int doRegister(TUser user) {
         user.setUserFlag(1);
         user.setBalance(0.0);
+        user.setUserPassword(MD5Utils.md5(user.getUserPassword()));
         int a =userDao.insert(user);
         return a;
     }

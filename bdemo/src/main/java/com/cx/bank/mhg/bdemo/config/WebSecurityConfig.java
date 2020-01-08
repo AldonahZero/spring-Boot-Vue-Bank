@@ -1,5 +1,6 @@
 package com.cx.bank.mhg.bdemo.config;
 
+import com.cx.bank.mhg.bdemo.Utils.MD5Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -31,7 +32,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
             @Override
             public boolean matches(CharSequence charSequence, String s) {
-                return s.equals(charSequence.toString());
+                return s.equals(MD5Utils.md5(charSequence.toString()));
             }
         });
     }

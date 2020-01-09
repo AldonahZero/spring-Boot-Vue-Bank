@@ -85,12 +85,31 @@
             <el-breadcrumb-item :to="{ path: '/home' }">首页</el-breadcrumb-item>
             <el-breadcrumb-item>{{this.$router.currentRoute.name}}</el-breadcrumb-item>
           </el-breadcrumb>
+          <vue-particles
+            id="particles-js"
+            color="#dedede"
+            :particleOpacity="0.7"
+            :particlesNumber="80"
+            shapeType="circle"
+            :particleSize="6"
+            linesColor="#000000"
+            :linesWidth="2"
+            :lineLinked="true"
+            :lineOpacity="0.4"
+            :linesDistance="150"
+            :moveSpeed="10"
+            :hoverEffect="true"
+            hoverMode="grab"
+            :clickEffect="true"
+            clickMode="push"
+          ></vue-particles>
           <div class="homeWelcome" v-if="this.$router.currentRoute.path=='/home'">欢迎给我打钱,</div>
           <div
             class="homeWelcome"
             v-if="this.$router.currentRoute.path=='/home'"
           >支付宝 139 - XXXX - 0307.</div>
-          <div class="homeWelcome" v-if="this.$router.currentRoute.path=='/home'">多多益善好人一生平安.</div>
+          <div class="homeWelcome" v-if="this.$router.currentRoute.path=='/home'">GKD GKD 多多益善, 好人一生平安.</div>
+
           <router-view class="homeRouterView" />
         </el-main>
       </el-container>
@@ -227,5 +246,11 @@ body {
 i.el-icon-bell {
   color: white;
   font-size: 25px;
+}
+
+#particles-js {
+  width: 100%;
+  height: calc(100% - 100px);
+  position: absolute;
 }
 </style>

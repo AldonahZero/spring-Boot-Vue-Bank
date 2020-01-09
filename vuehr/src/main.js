@@ -11,7 +11,8 @@ import {putRequest} from "./utils/api";
 import {deleteRequest} from "./utils/api";
 import {getRequest} from "./utils/api";
 import {initMenu} from "./utils/menus";
-import 'font-awesome/css/font-awesome.min.css'
+import VueParticles from 'vue-particles';
+import 'font-awesome/css/font-awesome.min.css';
 
 Vue.prototype.postRequest = postRequest;
 Vue.prototype.postKeyValueRequest = postKeyValueRequest;
@@ -22,7 +23,7 @@ Vue.prototype.getRequest = getRequest;
 Vue.config.productionTip = false
 
 Vue.use(ElementUI,{size:'large'});
-
+Vue.use(VueParticles);
 router.beforeEach((to, from, next) => {
     if (to.path == '/'||to.path == '/register') {
         next();

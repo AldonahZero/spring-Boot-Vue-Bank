@@ -28,7 +28,7 @@
                           placeholder="请输入密码" @keydown.enter.native="submitLogin"></el-input>
             </el-form-item>
             <el-form-item>
-                <el-link href="/#/Login" type="primary" >登录账号</el-link>
+                <el-link href="/#/" type="primary" >登录账号</el-link>
             </el-form-item>
             
             <el-button size="normal" type="success" round style="width: 100%;" @click="submitLogin">注册</el-button>

@@ -43,8 +43,12 @@
               </template>
               <el-menu-item-group>
                 <span slot="title">存取款</span>
-                <el-menu-item index="1-1"><AddMoney/></el-menu-item>
-                <el-menu-item index="1-2"><SubMoney/></el-menu-item>
+                <el-menu-item index="1-1">
+                  <AddMoney />
+                </el-menu-item>
+                <el-menu-item index="1-2">
+                  <SubMoney />
+                </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
             <el-submenu index="2">
@@ -54,7 +58,9 @@
               </template>
               <el-menu-item-group>
                 <span slot="title">查钱</span>
-                <el-menu-item index="1-1"><ShowMoney/></el-menu-item>
+                <el-menu-item index="1-1">
+                  <ShowMoney />
+                </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
             <el-submenu index="3">
@@ -64,7 +70,9 @@
               </template>
               <el-menu-item-group>
                 <span slot="title">转钱</span>
-                <el-menu-item index="1-1"><TransferMoney/></el-menu-item>
+                <el-menu-item index="1-1">
+                  <TransferMoney />
+                </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
           </el-menu>
@@ -107,15 +115,18 @@ export default {
     };
   },
   components: {
-      AddMoney,
-      SubMoney,
-      ShowMoney,
-      TransferMoney
+    AddMoney,
+    SubMoney,
+    ShowMoney,
+    TransferMoney
   },
   computed: {
     routes() {
       return this.$store.state.routes;
     }
+  },
+  beforeCreate() {
+    document.querySelector("body").removeAttribute("style");
   },
   methods: {
     goChat() {
@@ -159,6 +170,10 @@ export default {
 </script>
 
 <style>
+body {
+  background: white;
+}
+
 .homeRouterView {
   margin-top: 10px;
 }
@@ -210,7 +225,7 @@ export default {
 }
 
 i.el-icon-bell {
-    color: white;
-    font-size: 25px;
+  color: white;
+  font-size: 25px;
 }
 </style>

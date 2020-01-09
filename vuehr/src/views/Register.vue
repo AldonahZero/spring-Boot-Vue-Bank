@@ -115,7 +115,7 @@ import Back from "./components/Back"
         position: absolute;
         z-index: 999;
         top: 0px;
-        left: 35%;
+        left: 33%;
 
     }
 </style>

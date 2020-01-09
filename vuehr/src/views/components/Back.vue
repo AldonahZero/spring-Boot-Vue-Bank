@@ -20,7 +20,10 @@ export default {
   beforeCreate() {
     document
       .querySelector("body")
-      .setAttribute("style", "margin: 0;height: 100vh;position: relative;display: flex;justify-content: center;align-items: flex-end;  background: linear-gradient(to bottom,var(--sky) 0vh,var(--sky) 73vh,var(--sea) 73vh,var(--sea) 80vh,var(--ground) 80vh,var(--ground) 100vh);");
+      .setAttribute(
+        "style",
+        "margin: 0;height: 100vh;position: relative;display: flex;justify-content: center;align-items: flex-end; background: linear-gradient(to bottom,var(--sky) 0vh,var(--sky) 73vh,var(--sea) 73vh,var(--sea) 80vh,var(--ground) 80vh,var(--ground) 100vh);"
+      );
   },
   //销毁前清除
   beforeDestroy() {
@@ -31,15 +34,7 @@ export default {
 
 <style>
 body {
-  background: linear-gradient(
-    to bottom,
-    var(--sky) 0vh,
-    var(--sky) 73vh,
-    var(--sea) 73vh,
-    var(--sea) 80vh,
-    var(--ground) 80vh,
-    var(--ground) 100vh
-  );
+  
 }
 </style>
 

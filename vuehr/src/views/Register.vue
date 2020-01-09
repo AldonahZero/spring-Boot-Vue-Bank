@@ -1,7 +1,10 @@
 <template>
-    <div>
-        
-        <el-form
+ <div class="con">
+        <div class="back">    
+          <Back/>
+        </div>
+        <div class="front">    
+                    <el-form
                 :rules="rules"
                 ref="loginForm"
                 v-loading="loading"
@@ -25,16 +28,18 @@
                           placeholder="请输入密码" @keydown.enter.native="submitLogin"></el-input>
             </el-form-item>
             <el-form-item>
-                <el-link href="/#/" type="primary" >登录账号</el-link>
+                <el-link href="/#/Login" type="primary" >登录账号</el-link>
             </el-form-item>
             
             <el-button size="normal" type="success" round style="width: 100%;" @click="submitLogin">注册</el-button>
         </el-form>
+        </div>
+   
     </div>
 </template>
 
 <script>
-
+import Back from "./components/Back"
     export default {
         name: "Register",
         data() {
@@ -48,6 +53,9 @@
                     userPassword: [{required: true, message: '请输入密码', trigger: 'blur'}]
                 }
             }
+        },
+        components: {
+            Back
         },
         methods: {
             submitLogin() {
@@ -97,5 +105,17 @@
 
     .warpperfront{
         font-size: 30px;
+    }
+
+    .con{
+    }
+    .back{
+    }
+    .front{
+        position: absolute;
+        z-index: 999;
+        top: 0px;
+        left: 35%;
+
     }
 </style>

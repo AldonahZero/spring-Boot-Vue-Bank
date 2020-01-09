@@ -1,6 +1,10 @@
 <template>
-    <div>       
-        <el-form
+    <div class="con">
+        <div class="back">    
+          <Back/>
+        </div>
+        <div class="front">    
+            <el-form
                 :rules="rules"
                 ref="loginForm"
                 v-loading="loading"
@@ -24,11 +28,13 @@
             </el-form-item>
             <el-button size="normal" type="primary" round style="width: 100%;" @click="submitLogin">登录</el-button>
         </el-form>
+        </div>
+   
     </div>
 </template>
 
 <script>
-
+import Back from "./components/Back"
     export default {
         name: "Login",
         data() {
@@ -42,6 +48,9 @@
                     userPassword: [{required: true, message: '请输入密码', trigger: 'blur'}]
                 }
             }
+        },
+        components: {
+            Back
         },
         methods: {
             submitLogin() {
@@ -92,5 +101,16 @@
 
     .warpperfront{
         font-size: 30px;
+    }
+    .con{
+    }
+    .back{
+    }
+    .front{
+        position: absolute;
+        z-index: 999;
+        top: 0px;
+        left: 35%;
+
     }
 </style>

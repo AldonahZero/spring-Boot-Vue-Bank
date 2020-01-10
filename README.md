@@ -26,7 +26,7 @@
 | gin           | 框架        | https://github.com/gin-gonic/gin             |
 | MongoDB       | 认证和授权框架      | https://www.mongodb.com        |
 | Swagger       | 自动化文档生成工具      | https://swagger.io/      |
-| grom       | ORM框架      | github.com/jinzhu/gorm      |
+| grom       | ORM框架      | https://github.com/jinzhu/gorm      |
 #### 后端技术-Java
 
 | 技术                 | 说明                | 官网                                                 |

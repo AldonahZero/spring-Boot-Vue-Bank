@@ -62,12 +62,15 @@ import Back from "./components/Back"
                 this.$refs.loginForm.validate((valid) => {
                     if (valid) {
                         this.loading = true;
-                        this.postKeyValueRequest('/user/register', this.loginForm).then(resp => {
+                        this.postKeyValueRequest('/base/regist', {
+                            userName: this.loginForm.userId,
+                            passWord: this.loginForm.userPassword,
+                            nickName: this.loginForm.userName
+                        }).then(resp => {
                             this.loading = false;
                             if (resp) {
-                                this.$store.commit('INIT_CURRENTHR', resp);
-                                let path = this.$route.query.redirect;
-                                this.$router.replace((path == '/' || path == undefined) ? '/' : path);
+                                this.$message.success('注册成功，请登录');
+                                this.$router.replace('/');
                             }
                         })
                     } else {

@@ -17,5 +17,12 @@ func RegistTable(db *gorm.DB) {
 		dbModel.ExaFileUploadAndDownload{},
 		sysModel.SysWorkflow{},
 		sysModel.SysWorkflowStepInfo{},
+		// 入职/离职流程引擎表
+		sysModel.SysOnboarding{},
+		sysModel.SysOnboardingTask{},
+		sysModel.SysOffboarding{},
+		sysModel.SysOffboardingTask{},
+		sysModel.SysHandoverItem{},
+		sysModel.SysAssetReturn{},
 	)
 }

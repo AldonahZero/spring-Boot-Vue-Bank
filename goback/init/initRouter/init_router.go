@@ -24,6 +24,8 @@ func InitRouter() *gin.Engine {
 	router.InitApiRouter(ApiGroup)                   // 注册功能api路由
 	router.InitFileUploadAndDownloadRouter(ApiGroup) // 文件上传下载功能路由
 	router.InitWorkflowRouter(ApiGroup)              // 工作流相关路由
+	router.InitOnboardingRouter(ApiGroup)            // 入职流程路由
+	router.InitOffboardingRouter(ApiGroup)           // 离职流程路由
 	router.InitCasbinRouter(ApiGroup)                // 权限相关路由
 	router.InitJwtRouter(ApiGroup)                   // jwt相关路由
 	return Router

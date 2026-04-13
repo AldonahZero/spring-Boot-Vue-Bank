@@ -4,6 +4,8 @@ import Login from './views/Login.vue'
 import Register from './views/Register.vue'
 import Home from './views/Home.vue'
 import FriendChat from './views/chat/FriendChat.vue'
+import OnboardingProcess from './views/process/OnboardingProcess.vue'
+import ResignationProcess from './views/process/ResignationProcess.vue'
 
 Vue.use(Router)
 
@@ -32,6 +34,18 @@ export default new Router({
                     path: '/chat',
                     name: '在线聊天',
                     component: FriendChat,
+                    hidden:true
+                },
+                {
+                    path: '/onboarding',
+                    name: '入职流程',
+                    component: OnboardingProcess,
+                    hidden:true
+                },
+                {
+                    path: '/resignation',
+                    name: '离职流程',
+                    component: ResignationProcess,
                     hidden:true
                 }
             ]

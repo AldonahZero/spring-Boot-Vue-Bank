@@ -38,6 +38,8 @@ export const formatRoutes = (routes) => {
                     require(['../views/sta/' + component + '.vue'], resolve);
                 } else if (component.startsWith("Sys")) {
                     require(['../views/sys/' + component + '.vue'], resolve);
+                } else if (component.startsWith("Onboarding") || component.startsWith("Resignation")) {
+                    require(['../views/process/' + component + '.vue'], resolve);
                 }
             }
         }

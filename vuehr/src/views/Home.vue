@@ -75,6 +75,21 @@
                 </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
+            <el-submenu index="4">
+              <template slot="title">
+                <i class="el-icon-s-check"></i>
+                <span slot="title">入职离职管理</span>
+              </template>
+              <el-menu-item-group>
+                <span slot="title">流程管理</span>
+                <el-menu-item index="4-1" @click="$router.push('/onboarding')">
+                  入职流程
+                </el-menu-item>
+                <el-menu-item index="4-2" @click="$router.push('/resignation')">
+                  离职流程
+                </el-menu-item>
+              </el-menu-item-group>
+            </el-submenu>
           </el-menu>
         </el-aside>
         <el-main>

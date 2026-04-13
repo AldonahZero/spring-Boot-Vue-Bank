@@ -17,5 +17,13 @@ func RegistTable(db *gorm.DB) {
 		dbModel.ExaFileUploadAndDownload{},
 		sysModel.SysWorkflow{},
 		sysModel.SysWorkflowStepInfo{},
+		sysModel.OnboardingProcess{},
+		sysModel.OnboardingChecklist{},
+		sysModel.OnboardingTask{},
+		sysModel.ResignationProcess{},
+		sysModel.HandoverItem{},
+		sysModel.AssetReturn{},
+		sysModel.SalarySettlement{},
+		sysModel.ResignationCertificate{},
 	)
 }

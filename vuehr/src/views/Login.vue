@@ -57,15 +57,34 @@ import Back from "./components/Back"
                 this.$refs.loginForm.validate((valid) => {
                     if (valid) {
                         this.loading = true;
-                        this.postKeyValueRequest('/user/login', this.loginForm).then(resp => {
+                        
+                        let users = JSON.parse(localStorage.getItem('vuehr_users') || '[]');
+                        let user = users.find(u => u.userId === this.loginForm.userId && u.userPassword === this.loginForm.userPassword);
+                        
+                        if (!user) {
+                            if (this.loginForm.userId === 'admin' && this.loginForm.userPassword === '123') {
+                                user = {
+                                    id: 0,
+                                    userId: 'admin',
+                                    userName: '系统管理员',
+                                    enabled: true,
+                                    roles: ['admin', 'hr']
+                                };
+                            }
+                        }
+                        
+                        setTimeout(() => {
                             this.loading = false;
-                            if (resp) {
-                                this.$store.commit('INIT_CURRENTHR', resp);
-                                window.sessionStorage.setItem("user", JSON.stringify(resp));
+                            if (user) {
+                                this.$store.commit('INIT_CURRENTHR', user);
+                                window.sessionStorage.setItem("user", JSON.stringify(user));
+                                this.$message.success('登录成功！');
                                 let path = this.$route.query.redirect;
                                 this.$router.replace((path == '/' || path == undefined) ? '/home' : path);
+                            } else {
+                                this.$message.error('用户名或密码错误！');
                             }
-                        })
+                        }, 500);
                     } else {
                         this.$message.error('请输入所有字段');
                         return false;

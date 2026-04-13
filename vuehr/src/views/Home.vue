@@ -75,6 +75,24 @@
                 </el-menu-item>
               </el-menu-item-group>
             </el-submenu>
+            <el-submenu index="4">
+              <template slot="title">
+                <i class="fa fa-random"></i>
+                <span slot="title">智能入离职流程</span>
+              </template>
+              <el-menu-item-group>
+                <span slot="title">流程引擎</span>
+                <el-menu-item index="/flow/dashboard" @click="$router.push('/flow/dashboard')">
+                  <i class="fa fa-dashboard"></i> 流程概览
+                </el-menu-item>
+                <el-menu-item index="/onboarding" @click="$router.push('/onboarding')">
+                  <i class="fa fa-user-plus"></i> 入职流程管理
+                </el-menu-item>
+                <el-menu-item index="/offboarding" @click="$router.push('/offboarding')">
+                  <i class="fa fa-user-times"></i> 离职流程管理
+                </el-menu-item>
+              </el-menu-item-group>
+            </el-submenu>
           </el-menu>
         </el-aside>
         <el-main>

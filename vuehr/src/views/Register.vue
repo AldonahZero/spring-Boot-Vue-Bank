@@ -62,14 +62,31 @@ import Back from "./components/Back"
                 this.$refs.loginForm.validate((valid) => {
                     if (valid) {
                         this.loading = true;
-                        this.postKeyValueRequest('/user/register', this.loginForm).then(resp => {
+                        
+                        let users = JSON.parse(localStorage.getItem('vuehr_users') || '[]');
+                        let existUser = users.find(u => u.userId === this.loginForm.userId);
+                        if (existUser) {
                             this.loading = false;
-                            if (resp) {
-                                this.$store.commit('INIT_CURRENTHR', resp);
-                                let path = this.$route.query.redirect;
-                                this.$router.replace((path == '/' || path == undefined) ? '/' : path);
-                            }
-                        })
+                            this.$message.error('用户ID已存在！');
+                            return;
+                        }
+                        
+                        const newUser = {
+                            id: users.length + 1,
+                            userId: this.loginForm.userId,
+                            userName: this.loginForm.userName,
+                            userPassword: this.loginForm.userPassword,
+                            enabled: true,
+                            createTime: new Date().toISOString()
+                        };
+                        users.push(newUser);
+                        localStorage.setItem('vuehr_users', JSON.stringify(users));
+                        
+                        setTimeout(() => {
+                            this.loading = false;
+                            this.$message.success('注册成功！请登录');
+                            this.$router.replace('/');
+                        }, 500);
                     } else {
                         this.$message.error('请输入所有字段');
                         return false;
